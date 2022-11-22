@@ -52,6 +52,7 @@ export default {
 .page {
   min-height: 100vh;
   margin-bottom: 132px;
+  background: #f9f9fa;
   .footer-nav {
     @include flex(row, center, center);
     width: 100%;
@@ -59,6 +60,7 @@ export default {
     bottom: 0;
     left: 0;
     background: #f5f4f9;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     a {
       @include flex(column,center,center);
       flex: 1;
